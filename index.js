@@ -7,3 +7,5 @@ const loadWorks = async () => {
 	}).join('');
 	worksDiv.innerHTML = `<table><thead><th>Title</th><th>Description</th><th>Created</th></thead>${ formatted }</table>`;
 };
+
+loadWorks();
